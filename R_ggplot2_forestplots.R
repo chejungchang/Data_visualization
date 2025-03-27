@@ -3,7 +3,7 @@ library(ggplot2)
 
 set.seed(123)  # for reproducibility
 
-# Create a mock dataset with 30 rows
+# Create a mock dataset with 36 rows
 margin <- runif(36, 0.2, 0.5)
 
 data <- tibble(
